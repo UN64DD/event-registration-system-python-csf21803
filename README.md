@@ -10,6 +10,8 @@
 
 A small, menu-driven command-line application for managing event registrations. It allows a user to create events, register attendees, cancel registrations, and view event/registration reports. The entire application is contained in a single Python file and stores all data in memory for the length of one run.
 
+![Project diagram](diagram.png)
+
 ---
 
 ## 2. Features Implemented
@@ -43,6 +45,7 @@ Two events are seeded at startup: `EVT001` (Python & Git Workshop, 2026-12-10, c
 ```
 .
 ├── README.md              # This file
+├── diagram.png            # Project diagram
 └── event_registration.py  # Entire CLI application
 ```
 
@@ -150,4 +153,4 @@ Event 'Git Basics' created successfully.
 - No automated tests.
 - `get_positive_int()` is dead code, and its `min_value` parameter is ignored.
 
-**Course context:** This repository is the group project deliverable for Item #11 in CSF21803 (Software Development Fundamental), Semester I Session 2026/2027. The repository currently contains only the single CLI source file and this README; no separate design document, report, or test suite is included.
+**Course context:** This repository is the group project deliverable for Item #11 in CSF21803 (Software Development Fundamental), Semester I Session 2026/2027. The repository currently contains the CLI source file, a project diagram (`diagram.png`), and this README; no separate report or test suite is included.
